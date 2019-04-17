@@ -8,15 +8,15 @@ stages:
     - deploy
 
 variables:
-    LC_ALL: 'en_US.UTF-8'
-    LANG: 'en_US.UTF-8'
-    GIT_SUBMODULE_STRATEGY: recursive
-    GAME_VERSION: '1.0.0'
-    GAME_NAME: 'leohome'
-    GAME_ARCHIVE_PATH: 'git@git.llsapp.com:sprout/game/leohome-archive.git'
-    BUNDLE_PATH: 'build/${GAME_NAME}'
-    IOS_BETA_BRANCH: 'feature/add_leohome'
-    ANDROID_BETA_BRANCH: 'feature1.7/addLeoHomeEntry'
+#     LC_ALL: 'en_US.UTF-8'
+#     LANG: 'en_US.UTF-8'
+#     GIT_SUBMODULE_STRATEGY: recursive
+#     GAME_VERSION: '1.0.0'
+#     GAME_NAME: 'leohome'
+#     GAME_ARCHIVE_PATH: 'git@git.llsapp.com:sprout/game/leohome-archive.git'
+#     BUNDLE_PATH: 'build/${GAME_NAME}'
+#     IOS_BETA_BRANCH: 'feature/add_leohome'
+#     ANDROID_BETA_BRANCH: 'feature1.7/addLeoHomeEntry'
 
 before_script:
     - npm ci
